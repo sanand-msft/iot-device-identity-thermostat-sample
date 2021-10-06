@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Identity.Sas", "Modu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Device.Identity.x509", "Device.Identity.x509\Device.Identity.x509.csproj", "{72039C8D-3FC4-473B-AA11-5D5A7BB9F56B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{1A0321BA-E482-43E5-9391-FEE64AE5C125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGenerator", "DataGenerator\DataGenerator.csproj", "{1A0321BA-E482-43E5-9391-FEE64AE5C125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device.TemperatureSensor", "Device.TemperatureSensor\Device.TemperatureSensor.csproj", "{7DEF5272-06C6-4263-A047-5C2004936FE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1A0321BA-E482-43E5-9391-FEE64AE5C125}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A0321BA-E482-43E5-9391-FEE64AE5C125}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A0321BA-E482-43E5-9391-FEE64AE5C125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DEF5272-06C6-4263-A047-5C2004936FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DEF5272-06C6-4263-A047-5C2004936FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DEF5272-06C6-4263-A047-5C2004936FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DEF5272-06C6-4263-A047-5C2004936FE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
